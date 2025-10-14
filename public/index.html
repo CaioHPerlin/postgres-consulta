@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Consulta | Postgres</title>
+  <meta charset="UTF-8">
+  <title>Tabela de Pessoas</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    uepa
+  <h1>Busca de Pessoas</h1>
+  <div id="search-container">
+    <input type="text" id="cpf-input" maxlength="14" placeholder="Digite o CPF">
+    <button id="cpf-search">Buscar CPF</button>
+    <button id="cpf-clear">Limpar Busca</button>
+  </div>
+  <div id="table-container"></div>
+  <script src="/script.js"></script>
 </body>
 </html>
